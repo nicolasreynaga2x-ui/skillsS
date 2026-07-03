@@ -5,8 +5,10 @@ output/*.md
 .DS_Store
 Thumbs.db
 
-# Claude Code project settings
-.claude/
+# Claude Code project settings (bundled skills are tracked, everything else is local)
+.claude/*
+!.claude/skills/
+.claude/settings.local.json
 
 # Editor files
 .vscode/
